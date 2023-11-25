@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+
+</head>
+<body>
+    <div class="wrapper">
+           <div class="user-choice">
+                <div class="user-choice__title">Bạn đăng nhập với vai trò là</div>
+                <div class="user-choice__body">
+                    <a class="consumer-btn " href="/login">Khách du lịch</a>
+                    <button class="customer-btn">Nhân viên </button>
+                </div>
+           </div>
+    </div>
+
+    <div class="login">
+        <div class="login__container">
+            <form id="login-form" class="form" action="" method="post">
+                <i class="ti-close login-close-icon"></i>
+                <h3 class="login-form__header">Login</h3>
+                <div class="login-form__username">
+                    <label for="username" class="text-info">Username:</label>
+                    <input type="text" name="username" id="username" class="form-control" placeholder="Tên đăng nhập">
+                </div>
+                <div class="login-form__password">
+                    <label for="password" class="text-info">Password:</label>
+                    <input type="text" name="password" id="password" class="form-control" placeholder="Mật khẩu">
+                </div>
+                <div class="login-form__footer">
+                    <label for="remember-me" class="login__remember">
+                        <span >Remember me</span>
+                        <input id="remember-me" name="remember-me" type="checkbox" >
+                        
+                    </label>
+                    <div id="register-link" >
+                        <a href="#" >Register here</a>
+                    </div>
+                </div>
+                <input type="submit" name="submit" class="btn-submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
